@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi I'm Tom!"
+title: "👨🏻‍💻 About Me!"
 author_profile: true
 redirect_from: 
   - /about/
