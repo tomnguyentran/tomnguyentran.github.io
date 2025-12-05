@@ -32,6 +32,6 @@ Previously, I taught kids Python and helped them understand technical concepts i
 
 Let's Connect!
 ------
-* [LinkedIn Profile]([your-linkedin-url](https://www.linkedin.com/in/tomnguyentran/))
+* [LinkedIn Profile](https://www.linkedin.com/in/tomnguyentran/)
 * [Email Me](mailto:tomntran02@gmail.com)
   
