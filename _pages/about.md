@@ -26,7 +26,7 @@ Previously, I taught kids Python and helped them understand technical concepts i
 ------
 *Check out my projects to see how I apply these skills:*
 
-1. **[POS Chargeback Analysis](/portfolio/chargeback_analysis/)** - *Analyzing dispute trends to reduce merchant loss.*
+1. **[Merchant Transaction Risk Monitor](/portfolio/risk_monitor/)** - *Analyzing dispute trends to reduce merchant loss.*
 2. **[Automated Risk Logic](link-to-your-project)** - *SQL-based triggers to catch velocity fraud.*
 3. **[Merchant Underwriting Model](link-to-your-project)** - *Scoring new merchants based on risk factors.*
 
