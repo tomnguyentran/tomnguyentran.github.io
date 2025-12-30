@@ -66,7 +66,7 @@ This downward trend stabilized the company's overall annual ratio of **0.79%**.
 
 Below is the overview page from the Tableau dashboard. The entire dashboard can be downloaded [here](https://public.tableau.com/app/profile/tom.tran3530/viz/chargeback_dashboard/Dashboard).
 
-![Overview Page](images/risk_dashboard/chargeback_dashboard.png)
+![Overview Page](/images/risk_dashboard/chargeback_dashboard.png)
 
 # Insights Deep Dive
 
@@ -84,9 +84,9 @@ Below is the overview page from the Tableau dashboard. The entire dashboard can 
 
 * As the list descends towards the **0.8%**, the bars shift to gray (Warning Zone) and finally to green (Safe Zone) to instantly distinguish between risky and safe merchants.
 
-![high risk merchants](images/risk_dashboard/risky_merchants.png)
+![high risk merchants](/images/risk_dashboard/risky_merchants.png)
 
-![safe merchants](images/risk_dashboard/safe_merchants.png)
+![safe merchants](/images/risk_dashboard/safe_merchants.png)
 
 
 
@@ -97,7 +97,7 @@ Below is the overview page from the Tableau dashboard. The entire dashboard can 
 
 * Throughout the year, the performance steadily improved, hitting a low of **0.59%** in June and ending the year at a healthy **0.65%** in December.
 
-![fraud trends](images/risk_dashboard/fraud_trends.png)
+![fraud trends](/images/risk_dashboard/fraud_trends.png)
 
 
 ### Root Cause Analysis:
@@ -110,7 +110,7 @@ Below is the overview page from the Tableau dashboard. The entire dashboard can 
 This indicates that risk is heavily concentrated in digital transactions rather than physical retail or logistics issues
 
 
-![root cause analysis](images/risk_dashboard/root_cause.png)
+![root cause analysis](/images/risk_dashboard/root_cause.png)
 
 
 
