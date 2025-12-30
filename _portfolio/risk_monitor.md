@@ -79,7 +79,7 @@ Below is the overview page from the Tableau dashboard. The entire dashboard can 
 
 ### High Risk Merchant Identification:
 
-* The "Top Risky Merchants" chart reveals that specific accounts (highlighted in red) have experienced chargebacks ratios exceeding **3.0%**, which is significantly higher than the company average.
+* The chart reveals that specific accounts (highlighted in red) have experienced chargebacks ratios exceeding **3.0%**, which is significantly higher than the company average.
 
 
 * As the list descends towards the **0.8%**, the bars shift to gray (Warning Zone) and finally to green (Safe Zone) to instantly distinguish between risky and safe merchants.
