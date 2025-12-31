@@ -8,8 +8,6 @@ collection: portfolio
 This project analyzes a dataset from a Fintech company that provides payment processing solutions for merchants.
 The company's business model generates revenue though transaction fees, but profitability is threatened by fraudulent activities and chargebacks.
 
-Note: This project uses a simulated dataset for educational purposes. The data was downloaded from this [website](https://www.kaggle.com/datasets/kartik2112/fraud-detection?select=fraudTrain.csv)
-
 in 2019, the company processed about **$65 million** in total transaction volume. The main challenge identified was the significant amount of chargebacks
 where customers dispute their transactions and demand refunds due to fraud or service issues. These disputes resulted in **$2.9 million** in losses and put the company
 at risk with card networks (Visa/Mastercard), which typically penalize processors that exceed the 1% chargeback ratio.
@@ -124,3 +122,7 @@ Based on the insights and findings above, we would recommend the stakeholders to
 
 * Specific high risk merchants are exceeding a chargeback ratio of 3.0%, far above the 0.8% safety threshold.
   * Recommendation: Conduct an immediate audit of the top 20 merchants identified in the dashboard to determine if account termination is required.
+
+  
+
+Note: This project uses a simulated dataset for educational purposes. The data was downloaded from this [website](https://www.kaggle.com/datasets/kartik2112/fraud-detection?select=fraudTrain.csv).
