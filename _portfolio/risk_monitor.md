@@ -29,7 +29,7 @@ The SQL queries used to aggregate transaction metrics for the dashboard can be f
 
 A Tableau dashboard used to report and explore fraud trends can be found [here](https://public.tableau.com/app/profile/tom.tran3530/viz/chargeback_dashboard/Dashboard).
 
-
+---
 
 # Data Dictionary
 
@@ -52,6 +52,8 @@ The summary table contains the following columns:
 | chargeback_ratio   | Percentage of transactions that resulted in chargebacks | float     |
 
 
+---
+
 # Executive Summary
 
 ### Overview of Findings
@@ -63,6 +65,8 @@ This downward trend stabilized the company's overall annual ratio of **0.79%**.
 Below is the overview page from the Tableau dashboard. The entire dashboard can be downloaded [here](https://public.tableau.com/app/profile/tom.tran3530/viz/chargeback_dashboard/Dashboard).
 
 ![Overview Page](/images/risk_dashboard/chargeback_dashboard.png)
+
+---
 
 # Insights Deep Dive
 
@@ -108,7 +112,7 @@ This indicates that risk is heavily concentrated in digital transactions rather 
 
 ![root cause analysis](/images/risk_dashboard/root_cause.png)
 
-
+---
 
 # Recommendations:
 
@@ -121,6 +125,6 @@ Based on the insights and findings above, we would recommend the stakeholders to
 * Specific high risk merchants are exceeding a chargeback ratio of 3.0%, far above the 0.8% safety threshold.
   * Recommendation: Conduct an immediate audit of the top 20 merchants identified in the dashboard to determine if account termination is required.
 
-  
+---
 
 Note: This project uses a simulated dataset for educational purposes. The data was downloaded from this [website](https://www.kaggle.com/datasets/kartik2112/fraud-detection?select=fraudTrain.csv).
