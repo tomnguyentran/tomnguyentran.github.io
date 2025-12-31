@@ -5,23 +5,21 @@ collection: portfolio
 ---
 
 # Project Background
-This project analyzes a dataset from a Fintech company that provides payment processing solutions for merchants.
-The company's business model generates revenue though transaction fees, but profitability is threatened by fraudulent activities and chargebacks.
+In 2019, a Fintech payment processor company faced a critical financial threat of **$2.9 million** in losses and a chargeback ratio dangerously approaching the 1% threshold monitored by Visa and Mastercard.
 
-in 2019, the company processed about **$65 million** in total transaction volume. The main challenge identified was the significant amount of chargebacks
-where customers dispute their transactions and demand refunds due to fraud or service issues. These disputes resulted in **$2.9 million** in losses and put the company
-at risk with card networks (Visa/Mastercard), which typically penalize processors that exceed the 1% chargeback ratio.
-
-The goal of this analysis was to evaluate the financial impact of fraud, identify high risk merchants, and recommend strategies to minimize losses using SQL and Tableau.
+While the company processed **$65 million** in total volume, profitability was being eaten by chargebacks and high risk merchants. This project identifies the root causes of these leaks and recommends strategies to recover lost revenue using SQL and Tableau.
 
 Insights and recommendations are provided on the following key areas:
 
 - **Executive KPI Assessment:** An evaluation of the company's overall health, comparing total sales
 against total loss to determine the chargeback ratio.
 
+
 - **High Risk Merchant Identification:** A comprehensive visualization of all active merchants, using a diverging color palette to highlight merchants exceeding the safety threshold. 
 
+
 - **Fraud Trends:** A timeline analysis tracking the company's risk performance throughout 2019.
+
 
 - **Root Cause Analysis:** A breakdown of chargebacks by merchant category and Visa reason code to pinpoint the causes of financial loss.
 
