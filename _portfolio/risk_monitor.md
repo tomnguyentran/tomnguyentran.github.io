@@ -94,10 +94,10 @@ Below is the overview page from the Tableau dashboard. The entire dashboard can 
 
 ### Chargeback Trends:
 
-* The company began 2019 in a critical state, with a chargeback ratio of **1.15%** in January.
+* The company began 2019 in a critical red zone, with a chargeback ratio of **1.15%** in January.
   
 
-* Throughout the year, the performance steadily improved, hitting a low of **0.59%** in June and ending the year at a healthy **0.65%** in December.
+* Performance steadily improved throughout Q1 and Q2, dropping into the safe green zone by June **(0.59%)** and ending the year at a healthy **0.65%** in December.
 
 ![fraud trends](/images/risk_dashboard/fraud_trends.png)
 
