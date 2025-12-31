@@ -77,6 +77,8 @@ Below is the overview page from the Tableau dashboard. The entire dashboard can 
 
 * The overall chargeback ratio is **0.79%**, which is under the critical 1% threshold. However, this is within the **0.8% danger zone**, requiring constant monitoring and improvement.
 
+![executive kpi](/images/risk_dashboard/KPI.png)
+
 ### High Risk Merchant Identification:
 
 * The chart reveals that specific accounts (highlighted in red) have experienced chargebacks ratios exceeding **3.0%**, which is significantly higher than the company average.
