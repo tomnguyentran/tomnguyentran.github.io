@@ -18,7 +18,7 @@ against total loss to determine the chargeback ratio.
 - **High Risk Merchant Identification:** A comprehensive visualization of all active merchants, using a diverging color palette to highlight merchants exceeding the safety threshold. 
 
 
-- **Fraud Trends:** A timeline analysis tracking the company's risk performance throughout 2019.
+- **Chargeback Trends:** A timeline analysis tracking the company's risk performance throughout 2019.
 
 
 - **Root Cause Analysis:** A breakdown of chargebacks by merchant category and Visa reason code to pinpoint the causes of financial loss.
@@ -90,7 +90,7 @@ Below is the overview page from the Tableau dashboard. The entire dashboard can 
 
 
 
-### Fraud Trends:
+### Chargeback Trends:
 
 * The company began 2019 in a critical state, with a chargeback ratio of **1.15%** in January.
   
