@@ -11,8 +11,8 @@ While the company processed **$65 million** in total volume, profitability was b
 
 Insights and recommendations are provided on the following key areas:
 
-- **Executive KPI Assessment:** An evaluation of the company's overall health, comparing total sales
-against total loss to determine the chargeback ratio.
+- **Executive KPI Assessment:** An evaluation of the company's overall health while monitoring the chargeback ratio
+against the 1% threshold.
 
 
 - **High Risk Merchant Identification:** A comprehensive visualization of all active merchants, using a diverging color palette to highlight merchants exceeding the safety threshold. 

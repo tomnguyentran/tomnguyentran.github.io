@@ -26,7 +26,7 @@ Previously, I taught kids Python and helped them understand technical concepts i
 ------
 *Check out my projects to see how I apply these skills:*
 
-1. **[Merchant Transaction Risk Monitor](/portfolio/risk_monitor/)** - *Identified $2.9M in fraud losses using SQL analysis and Tableau dashboards.*
+1. **[Merchant Transaction Risk Monitor](/portfolio/risk_monitor/)** - *Identified $2.9M in losses using SQL analysis and Tableau dashboards.*
 
 Let's Connect!
 ------
