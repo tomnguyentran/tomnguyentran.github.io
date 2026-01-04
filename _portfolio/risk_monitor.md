@@ -23,7 +23,7 @@ against the 1% threshold.
 
 - **Root Cause Analysis:** A breakdown of chargebacks by merchant category and Visa reason code to pinpoint the causes of financial loss.
 
-The Python code used to simulate chargeback scenarios and assign Visa reason codes (10.4 and 13.1) can be found [here](https://github.com/tomnguyentran/chargeback/blob/ab9ab6bdf089db8786a845a388b4543e4587049d/python_scripts/chargeback.ipynb).
+The Python code used to simulate chargeback scenarios and assign Visa reason codes (10.4 and 13.1) can be found [here](https://github.com/tomnguyentran/chargeback/blob/main/python_scripts/chargeback.ipynb).
 
 The SQL query used to aggregate transaction metrics for the dashboard can be found [here](https://github.com/tomnguyentran/chargeback/blob/main/queries/merchant_chargeback_ratios.sql).
 
