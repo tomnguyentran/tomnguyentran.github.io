@@ -25,7 +25,7 @@ against the 1% threshold.
 
 The Python code used to simulate chargeback scenarios and assign Visa reason codes (10.4 and 13.1) can be found [here](https://github.com/tomnguyentran/chargeback/blob/ab9ab6bdf089db8786a845a388b4543e4587049d/python_scripts/chargeback.ipynb).
 
-The SQL queries used to aggregate transaction metrics for the dashboard can be found [here](https://github.com/tomnguyentran/chargeback/blob/d1153e6c9ad380ec4fecce84fd2b324edd962c6b/queries/merchant_chargeback_ratios.sql).
+The SQL query used to aggregate transaction metrics for the dashboard can be found [here](https://github.com/tomnguyentran/chargeback/blob/d1153e6c9ad380ec4fecce84fd2b324edd962c6b/queries/merchant_chargeback_ratios.sql).
 
 A Tableau dashboard used to report and explore fraud trends can be found [here](https://public.tableau.com/app/profile/tom.tran3530/viz/chargeback_dashboard/Dashboard).
 
@@ -120,12 +120,14 @@ This indicates that risk is heavily concentrated in digital transactions rather 
 
 Based on the insights and findings above, we would recommend the stakeholders to consider the following: 
 
-* "Card Absent" fraud is the primary loss driver (5,220 incidents), concentrated within online merchants.
-  * Recommendation: Implement 3D-Secure technology for all online transactions to verify cardholder identity at checkout and shift liability away from the merchant.
+* **"Card Absent" fraud is the primary loss driver (5,220 incidents)**, concentrated within online merchants.
+  * **Recommendation:** Implement **3D-Secure technology** for all online transactions to verify cardholder identity at checkout and shift liability away from the merchant.
 
 
-* Specific high risk merchants are exceeding a chargeback ratio of 3.0%, far above the 0.8% safety threshold.
-  * Recommendation: Conduct an immediate audit of the top 20 merchants identified in the dashboard to determine if account termination is required.
+* **38 high risk merchants** are exceeding a chargeback ratio of **3.0%**, far above the 0.8% safety threshold.
+  * **Recommendation:** Conduct an immediate audit of these flagged accounts to determine if account termination is required,
+    potentially **preventing $825,000 in annual losses**.
+    * The SQL query used to identify the high risk merchants and quantify the financial impact can be found [here](https://github.com/tomnguyentran/chargeback/blob/main/queries/top_risky_merchants.sql).
 
 ---
 
