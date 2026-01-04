@@ -25,7 +25,7 @@ against the 1% threshold.
 
 The Python code used to simulate chargeback scenarios and assign Visa reason codes (10.4 and 13.1) can be found [here](https://github.com/tomnguyentran/chargeback/blob/ab9ab6bdf089db8786a845a388b4543e4587049d/python_scripts/chargeback.ipynb).
 
-The SQL query used to aggregate transaction metrics for the dashboard can be found [here](https://github.com/tomnguyentran/chargeback/blob/d1153e6c9ad380ec4fecce84fd2b324edd962c6b/queries/merchant_chargeback_ratios.sql).
+The SQL query used to aggregate transaction metrics for the dashboard can be found [here](https://github.com/tomnguyentran/chargeback/blob/main/queries/merchant_chargeback_ratios.sql).
 
 A Tableau dashboard used to report and explore fraud trends can be found [here](https://public.tableau.com/app/profile/tom.tran3530/viz/chargeback_dashboard/Dashboard).
 
