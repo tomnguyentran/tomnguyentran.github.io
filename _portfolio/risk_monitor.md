@@ -7,7 +7,7 @@ collection: portfolio
 # Project Background
 In 2019, a Fintech payment processor company faced a critical financial threat of **$2.9 million** in losses and a chargeback ratio dangerously approaching the 1% threshold monitored by Visa and Mastercard.
 
-While the company processed **$65 million** in total volume, profitability was being eaten by chargebacks and high risk merchants. This project identifies the root causes of these leaks and recommends strategies to recover lost revenue using SQL and Tableau.
+While the company processed **$65 million** in total volume, profitability was being eaten by chargebacks and high-risk merchants. This project identifies the root causes of these leaks and recommends strategies to recover lost revenue using SQL and Tableau.
 
 Insights and recommendations are provided on the following key areas:
 
@@ -15,7 +15,7 @@ Insights and recommendations are provided on the following key areas:
 against the 1% threshold.
 
 
-- **High Risk Merchant Identification:** A comprehensive visualization of all active merchants, using a diverging color palette to highlight merchants exceeding the safety threshold. 
+- **High-Risk Merchant Identification:** A comprehensive visualization of all active merchants, using a diverging color palette to highlight merchants exceeding the safety threshold. 
 
 
 - **Chargeback Trends:** A timeline analysis tracking the company's risk performance throughout 2019.
@@ -58,7 +58,7 @@ The summary table contains the following columns:
 
 ### Overview of Findings
 
-The analysis revealed a total financial loss of **$2.9 million** in 2019, primarily due to **"Card Absent"** fraud from **online merchants**.
+The analysis revealed a total financial loss of **$2.9 million** in 2019, primarily due to **"Card-Absent"** fraud from **online merchants**.
 The year began with a critical chargeback ratio of **1.15%**, but saw significant improvements throughout the year, dropping to **0.65%** by December.
 This downward trend stabilized the company's overall annual ratio of **0.79%**.
 
@@ -79,14 +79,14 @@ Below is the overview page from the Tableau dashboard. The entire dashboard can 
 
 ![executive kpi](/images/risk_dashboard/KPI.png)
 
-### High Risk Merchant Identification:
+### High-Risk Merchant Identification:
 
 * The chart reveals that specific accounts (highlighted in red) have experienced chargebacks ratios exceeding **3.0%**, which is significantly higher than the company average.
 
 
 * As the list descends towards the **0.8%**, the bars shift to gray (Warning Zone) and finally to green (Safe Zone) to instantly distinguish between risky and safe merchants.
 
-![high risk merchants](/images/risk_dashboard/risky_merchants.png)
+![high-risk merchants](/images/risk_dashboard/risky_merchants.png)
 
 ![safe merchants](/images/risk_dashboard/safe_merchants.png)
 
@@ -104,7 +104,7 @@ Below is the overview page from the Tableau dashboard. The entire dashboard can 
 
 ### Root Cause Analysis:
 
-* The primary cause of loss is **"Card Absent"** fraud (Reason code 10.4), which accounted for **5,220 incidents**. 
+* The primary cause of loss is **"Card-Absent"** fraud (Reason code 10.4), which accounted for **5,220 incidents**. 
   This volume is more than double the second-highest reason code, "Items Not Received" (2,043 incidents)
 
 
@@ -120,14 +120,14 @@ This indicates that risk is heavily concentrated in digital transactions rather 
 
 Based on the insights and findings above, we would recommend the stakeholders to consider the following: 
 
-* **"Card Absent" fraud is the primary loss driver (5,220 incidents)**, concentrated within online merchants.
+* **"Card-Absent" fraud is the primary loss driver (5,220 incidents)**, concentrated within online merchants.
   * **Recommendation:** Implement **3D-Secure technology** for all online transactions to verify cardholder identity at checkout and shift liability away from the merchant.
 
 
-* **38 high risk merchants** are exceeding a chargeback ratio of **3.0%**, far above the 0.8% safety threshold.
+* **38 high-risk merchants** are exceeding a chargeback ratio of **3.0%**, far above the 0.8% safety threshold.
   * **Recommendation:** Conduct an immediate audit of these flagged accounts to determine if account termination is required,
     potentially **preventing $825,000 in annual losses**.
-    * The SQL query used to identify the high risk merchants and quantify the financial impact can be found [here](https://github.com/tomnguyentran/chargeback/blob/main/queries/top_risky_merchants.sql).
+    * The SQL query used to identify the high-risk merchants and quantify the financial impact can be found [here](https://github.com/tomnguyentran/chargeback/blob/main/queries/top_risky_merchants.sql).
 
 ---
 
