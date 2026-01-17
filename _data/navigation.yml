@@ -8,8 +8,8 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Resume"
-    url: /files/Tom_Tran_Analyst.pdf
+  - #title: "Resume"
+    #url: /files/
 
   - # title: "Talks"
     # url: /talks/    
