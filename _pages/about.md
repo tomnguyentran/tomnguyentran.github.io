@@ -9,7 +9,7 @@ redirect_from:
 ![Fintech Picture](/images/fintech.png){: .align-right width="300px" style="margin-left: 30px;"}
 My journey into Fintech didn't start with code. It started with a PAX terminal and a stack of chargeback receipts.
 
-While working in Merchant Operations, I handled merchant configurations through MIDs and resolved friendly fraud disputes. At the time, I didn't even know I was working in Fintech. 
+While working in Merchant Operations, I handled merchant onboarding and resolved friendly fraud disputes. At the time, I didn't even know I was working in Fintech. 
 
 After I finished my Data Science studies, I began learning about the world of payment processing and fraud. That's when I realized that I had already lived through the problems that this industry is trying to solve with data.
 
