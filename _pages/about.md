@@ -11,7 +11,7 @@ My journey into Fintech didn't start with code. It started with a PAX terminal a
 
 While working in Merchant Operations, I handled merchant onboarding and resolved friendly fraud disputes. At the time, I didn't even know I was working in Fintech. 
 
-After I finished my Data Science studies, I began learning about the world of payment processing and fraud. That's when I realized that I had already lived through the problems that this industry is trying to solve with data.
+After I finished my Data Science studies, I began learning about the world of payment processing and fraud. That's when I discovered that I had already lived through the problems that this industry is trying to solve with data.
 
 I realized that combining my technical background with my experience in Merchant Operations created the perfect foundation for data analytics in Fintech. I am also a member of the TAG Fintech Society to keep up with the latest trends in the industry.
 
