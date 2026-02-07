@@ -13,7 +13,7 @@ While working in Merchant Operations, I handled merchant onboarding and resolved
 
 After I finished my Data Science studies, I began learning about the world of payment processing and fraud. That's when I realized that I had already lived through the problems that this industry is trying to solve with data.
 
-I felt like this mix of domain knowledge and technical skills was a great way to pivot to data analytics in FinTech. I am also a member of the TAG Fintech Society to keep up with the latest trends in the industry.
+I realized that combining my technical background with my experience in Merchant Operations created the perfect foundation for data analytics in Fintech. I am also a member of the TAG Fintech Society to keep up with the latest trends in the industry.
 
 🛠️ Technical Specialties
 ------
