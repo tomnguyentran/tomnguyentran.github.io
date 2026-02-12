@@ -26,7 +26,7 @@ I realized that combining my technical background with my experience in Merchant
 
 1. **[Merchant Transaction Risk Monitor](/portfolio/risk_monitor/)** - *Identified $2.9M in losses using SQL analysis and Tableau dashboard.*
 
-2. **[Merchant Underwriting Decision Engine](/_portfolio/merchant_underwriting/)** - *Automated 96% of underwriting decisions and blocked $38M in exposure using SQL & Python.*
+2. **[Merchant Underwriting Decision Engine](/portfolio/merchant_underwriting/)** - *Automated 96% of underwriting decisions and blocked $38M in exposure using SQL & Python.*
 
 Let's Connect!
 ------
