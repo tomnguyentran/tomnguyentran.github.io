@@ -1,6 +1,6 @@
 ---
-title: "Automated Underwriting Decision Engine"
-excerpt: "Coming soon. <br/><img src='/images/risk_dashboard/chargeback_dashboard_small.png'>"
+title: "Merchant Underwriting Decision Engine"
+excerpt: "Automated underwriting engine blocking $38M in exposure and streamlining 96% of decisions using SQL and Python. <br/><img src='images/merchant_underwriting_summary/summary_output.png'>"
 collection: portfolio
 ---
 
