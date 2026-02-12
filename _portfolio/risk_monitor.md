@@ -2,6 +2,7 @@
 title: "Merchant Transaction Risk Monitor"
 excerpt: "Risk analysis dashboard identifying $2.9M in fraud and visualizing chargeback trends using SQL and Tableau. <br/><img src='/images/risk_dashboard/chargeback_dashboard_small.png'>"
 collection: portfolio
+weight: 1
 ---
 
 # Project Background
