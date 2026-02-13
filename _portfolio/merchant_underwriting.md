@@ -28,3 +28,14 @@ The architecture and insights of the decision engine are broken down into the fo
 
 - **Automation & Business Impact**: Analyzing the engine's final output to validate the automation rate and quantify the financial exposure.
   - The executive summary report used to visualize the portfolio exposure can be found [here](https://github.com/tomnguyentran/merchant-underwriting-decision-engine/blob/main/summary_output/summary_output.png).
+
+---
+
+# Data Structure
+
+The database structure of the merchant applications consists of three tables: `applications`, `merchants`, and `mcc_codes`.
+
+![data_structure](/images/merchant_underwriting_summary/underwriting_er_diagram.png)
+
+---
+
