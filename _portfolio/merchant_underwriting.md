@@ -39,3 +39,15 @@ The database structure of the merchant applications consists of three tables: `a
 
 ---
 
+# Executive Summary
+
+### Overview of Findings
+
+The automated underwriting engine processed **$108 million** in requested volume across 2,000 applications.
+The logic safely onboarded **$64 million** in revenue while blocking **$38 million** in exposure from prohibited and high-risk merchants.
+Furthermore, the system achieved a 96% automation rate, routing **$6 million** in complex cases to human underwriters for due diligence.
+
+![executive_summary](/images/merchant_underwriting_summary/summary_output.png)
+
+---
+
