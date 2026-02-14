@@ -97,7 +97,7 @@ Furthermore, the system achieved a 96% automation rate, routing **$6 million** i
 
 ### To scale this prototype to a production-grade system, the following enhancements are recommended:
 
-- While the current SQL logic is an effective rule-based solution, implementing a machine learning model in Python would improve detection of complex patterns that static rules might miss.
+- **Transition to Machine Learning:** While the current SQL logic is an effective rule-based solution, implementing a machine learning model in Python would improve detection of complex patterns that static rules might miss.
 
 
-- Currently, the engine processes applications in a batch. The next step would be to wrap the logic in a streaming pipeline to process applications as they arrive.
+- **Real-Time Data Streaming:** Currently, the engine processes applications in batch. The next step would be to wrap the logic in a streaming pipeline to process applications instantly as they arrive.
