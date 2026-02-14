@@ -6,13 +6,13 @@ weight: 2
 ---
 
 # Project Background
-A merchant acquirer faced a surge of 2,000 merchant applications, representing over $108 million in potential processing volume.
+A merchant acquirer faced a surge of **2,000 merchant applications**, representing over **$108 million** in potential processing volume.
 
 However, the company's manual underwriting team has become a critical bottleneck. Relying on manual human review for every application delayed
 revenue for legitimate businesses while increasing the risk of human error on high-stakes decisions.
 
 This project builds an automated underwriting decision engine using SQL and Python. By implementing a logical decision funnel,
-the system is designed to instantly approve safe merchants while automatically blocking $38 million in exposure from high-risk and prohibited applicants.
+the system is designed to instantly approve safe merchants while automatically blocking **$38 million** in exposure from high-risk and prohibited applicants.
 
 
 The architecture and insights of the decision engine are broken down into the following key areas:
@@ -41,11 +41,9 @@ The database structure of the merchant applications consists of three tables: `a
 
 # Executive Summary
 
-### Overview of Findings
-
 The automated underwriting engine processed **$108 million** in requested volume across 2,000 applications.
 The logic safely onboarded **$64 million** in revenue while blocking **$38 million** in exposure from prohibited and high-risk merchants.
-Furthermore, the system achieved a 96% automation rate, routing **$6 million** in complex cases to human underwriters for due diligence.
+Furthermore, the system achieved a **96% automation rate**, routing **$6 million** in complex cases to human underwriters for due diligence.
 
 ![executive_summary](/images/merchant_underwriting_summary/summary_output.png)
 
@@ -58,7 +56,7 @@ Furthermore, the system achieved a 96% automation rate, routing **$6 million** i
 - Utilized the `faker` library and `random.seed(42)` to generate a dataset of 2,000 merchant applications and ensured consistent testing results.
 
 
-- Applied specific probability weights using `random.choices([...], weights=[...])` to mirror realistic acceptance rates. For example, a 5% KYC failure rate and 2% TMF (blacklisted) hit rate to test the engine's ability to catch rare cases.
+- Applied specific probability weights using `random.choices([...], weights=[...])` to mirror realistic acceptance rates. For example, a **5% KYC failure rate** and **2% TMF (blacklisted) hit rate** to test the engine's ability to catch rare cases.
 
 
 - Engineered a relational schema by passing the `merchant_id` from the **merchants** table to the **applications** table as a foreign key for SQL joins.
@@ -95,9 +93,9 @@ Furthermore, the system achieved a 96% automation rate, routing **$6 million** i
 
 # Future Improvements:
 
-### To scale this prototype to a production-grade system, the following enhancements are recommended:
+To scale this prototype to a production-grade system, the following enhancements are recommended:
 
-- **Transition to Machine Learning:** While the current SQL logic is an effective rule-based solution, implementing a machine learning model in Python would improve detection of complex patterns that static rules might miss.
+- **Transition to Machine Learning**: While the current SQL logic is an effective rule-based solution, implementing a machine learning model in Python would improve detection of complex patterns that static rules might miss.
 
 
-- **Real-Time Data Streaming:** Currently, the engine processes applications in batch. The next step would be to wrap the logic in a streaming pipeline to process applications instantly as they arrive.
+- **Real-Time Data Streaming**: Currently, the engine processes applications in batch. The next step would be to wrap the logic in a streaming pipeline to process applications instantly as they arrive.

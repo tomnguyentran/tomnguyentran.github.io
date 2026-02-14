@@ -57,8 +57,6 @@ The summary table contains the following columns:
 
 # Executive Summary
 
-### Overview of Findings
-
 The analysis revealed a total financial loss of **$2.9 million** in 2019, primarily due to **"Card-Absent"** fraud from **online merchants**.
 The year began with a critical chargeback ratio of **1.15%**, but saw significant improvements throughout the year, dropping to **0.65%** by December.
 This downward trend stabilized the company's overall annual ratio of **0.79%**.
